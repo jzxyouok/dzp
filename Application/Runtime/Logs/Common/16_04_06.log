@@ -1,0 +1,6 @@
+[ 2016-04-06T11:51:43+08:00 ] 192.168.1.68 /thinkphp/index.php/Dzp/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Dzp
+

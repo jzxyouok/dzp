@@ -1,0 +1,1669 @@
+[ 2016-07-09T10:34:37+08:00 ] 127.0.0.1 /dzp/index.php/home/poll/index/activeid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+
+[ 2016-07-09T10:34:58+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2016-07-09T10:34:58+08:00 ] 127.0.0.1 /dzp/index.php/home/poll/index/activeid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+
+[ 2016-07-09T10:35:19+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+
+[ 2016-07-09T10:35:19+08:00 ] 127.0.0.1 /dzp/index.php/home/poll/index/activeid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+
+[ 2016-07-09T10:35:19+08:00 ] 127.0.0.1 /dzp/index.php/home/poll/index/activeid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+
+[ 2016-07-09T10:35:19+08:00 ] 127.0.0.1 /dzp/index.php/home/poll/index/activeid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-07-09T10:35:19+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1107s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=2 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.1161s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 45 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+
+[ 2016-07-09T10:35:28+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/2.html?code=013NOc9O0mGxpg2SVo8O04199O0NOc9N
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1146s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=2 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.1027s ]
+
+[ 2016-07-09T10:35:28+08:00 ] 127.0.0.1 /dzp/index.php/home/poll/index/activeid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+
+[ 2016-07-09T10:35:29+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0951s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0929s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.1111s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013479s ]
+
+[ 2016-07-09T10:35:29+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0833s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=2 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0295s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 45 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+
+[ 2016-07-09T10:35:57+08:00 ] 127.0.0.1 /dzp/index.php/home/poll/index/activeid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-07-09T10:35:57+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1075s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=3 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0731s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 45 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+
+[ 2016-07-09T10:36:01+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/3.html?code=003toofh1rN7Mk0fJReh180rfh1toofA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1088s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=3 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.1054s ]
+
+[ 2016-07-09T10:36:02+08:00 ] 127.0.0.1 /dzp/index.php/Home/poll/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/3/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0903s ]
+SQL: SELECT app_activities.name,app_activities.regulation,app_activities.logo_url,app_activity_employee.id,app_activity_employee.total_num,app_activity_employee.employee_num,bd_users.name as empname,bd_users.photo_url FROM `app_activities` LEFT JOIN app_activity_employee on app_activities.id=app_activity_employee.activity_id LEFT JOIN bd_users on bd_users.id=app_activity_employee.employee_id  WHERE ( app_activities.id=3 and app_activities.publish_status=1 )  [ RunTime:0.0297s ]
+SQL: SHOW COLUMNS FROM `app_activity_employee` [ RunTime:0.0296s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_employee` WHERE ( total_num>24 and publish_status=1 ) ORDER BY total_num desc LIMIT 1   [ RunTime:0.0305s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_employee` WHERE ( total_num>4 and publish_status=1 ) ORDER BY total_num desc LIMIT 1   [ RunTime:0.0299s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001650s ]
+
+[ 2016-07-09T10:36:13+08:00 ] 127.0.0.1 /dzp/index.php/Home/poll/details/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/3/empid/1/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1099s ]
+SQL: SELECT app_activities.name,app_activities.logo_url,app_activity_employee.employee_num,app_activity_employee.total_num,bd_users.photo_url FROM `app_activities` LEFT JOIN app_activity_employee on app_activity_employee.activity_id=app_activities.id LEFT JOIN bd_users on bd_users.id=app_activity_employee.employee_id  WHERE ( app_activity_employee.id=1 and app_activity_employee.publish_status=1 ) LIMIT 1   [ RunTime:0.0752s ]
+SQL: SHOW COLUMNS FROM `app_activity_employee` [ RunTime:0.0306s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_employee` WHERE ( total_num>24 and publish_status=1 ) ORDER BY total_num desc LIMIT 1   [ RunTime:0.0299s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+NOTIC: [8] Undefined variable: logo D:\phpStudy\WWW\dzp\Application\Runtime\Cache\Home\4f18424c7cc3eaa44fceb315cf74466c.php ç¬¬ 19 è¡Œ.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001558s ]
+
+[ 2016-07-09T10:37:20+08:00 ] 127.0.0.1 /dzp/index.php/Home/poll/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1113s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'opentime_start' in 'field list'
+
+[ 2016-07-09T10:39:07+08:00 ] 127.0.0.1 /dzp/index.php/Home/poll/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1091s ]
+SQL: SELECT `start_at`,`end_at`,`status` FROM `app_activities` WHERE ( id=3 and publish_status=1 ) LIMIT 1   [ RunTime:0.0794s ]
+NOTIC: [8] Undefined index: opentime_start D:\phpStudy\WWW\dzp\Application\Home\Controller\PollController.class.php ç¬¬ 117 è¡Œ.
+NOTIC: [8] Undefined index: opentime_end D:\phpStudy\WWW\dzp\Application\Home\Controller\PollController.class.php ç¬¬ 117 è¡Œ.
+NOTIC: [8] Undefined variable: activeStatus D:\phpStudy\WWW\dzp\Application\Home\Controller\PollController.class.php ç¬¬ 118 è¡Œ.
+SQL: UPDATE `app_activities` SET `start_at`='2016-04-01 00:00:00',`end_at`='2017-05-04 00:00:00',`status`='2' WHERE ( id=3 ) [ RunTime:0.0407s ]
+
+[ 2016-07-09T10:39:08+08:00 ] 127.0.0.1 /dzp/index.php/Home/poll/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0845s ]
+SQL: SELECT `start_at`,`end_at`,`status` FROM `app_activities` WHERE ( id=3 and publish_status=1 ) LIMIT 1   [ RunTime:0.0314s ]
+NOTIC: [8] Undefined index: opentime_start D:\phpStudy\WWW\dzp\Application\Home\Controller\PollController.class.php ç¬¬ 117 è¡Œ.
+NOTIC: [8] Undefined index: opentime_end D:\phpStudy\WWW\dzp\Application\Home\Controller\PollController.class.php ç¬¬ 117 è¡Œ.
+NOTIC: [8] Undefined variable: activeStatus D:\phpStudy\WWW\dzp\Application\Home\Controller\PollController.class.php ç¬¬ 118 è¡Œ.
+SQL: UPDATE `app_activities` SET `start_at`='2016-04-01 00:00:00',`end_at`='2017-05-04 00:00:00',`status`='2' WHERE ( id=3 ) [ RunTime:0.0324s ]
+
+[ 2016-07-09T10:39:08+08:00 ] 127.0.0.1 /dzp/index.php/Home/poll/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0805s ]
+SQL: SELECT `start_at`,`end_at`,`status` FROM `app_activities` WHERE ( id=3 and publish_status=1 ) LIMIT 1   [ RunTime:0.0306s ]
+NOTIC: [8] Undefined index: opentime_start D:\phpStudy\WWW\dzp\Application\Home\Controller\PollController.class.php ç¬¬ 117 è¡Œ.
+NOTIC: [8] Undefined index: opentime_end D:\phpStudy\WWW\dzp\Application\Home\Controller\PollController.class.php ç¬¬ 117 è¡Œ.
+NOTIC: [8] Undefined variable: activeStatus D:\phpStudy\WWW\dzp\Application\Home\Controller\PollController.class.php ç¬¬ 118 è¡Œ.
+SQL: UPDATE `app_activities` SET `start_at`='2016-04-01 00:00:00',`end_at`='2017-05-04 00:00:00',`status`='2' WHERE ( id=3 ) [ RunTime:0.0298s ]
+
+[ 2016-07-09T10:39:09+08:00 ] 127.0.0.1 /dzp/index.php/Home/poll/details/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/3/empid/1/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0868s ]
+SQL: SELECT app_activities.name,app_activities.logo_url,app_activity_employee.employee_num,app_activity_employee.total_num,bd_users.photo_url FROM `app_activities` LEFT JOIN app_activity_employee on app_activity_employee.activity_id=app_activities.id LEFT JOIN bd_users on bd_users.id=app_activity_employee.employee_id  WHERE ( app_activity_employee.id=1 and app_activity_employee.publish_status=1 ) LIMIT 1   [ RunTime:0.0308s ]
+SQL: SHOW COLUMNS FROM `app_activity_employee` [ RunTime:0.0303s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_employee` WHERE ( total_num>24 and publish_status=1 ) ORDER BY total_num desc LIMIT 1   [ RunTime:0.0302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8] Undefined variable: logo D:\phpStudy\WWW\dzp\Application\Runtime\Cache\Home\4f18424c7cc3eaa44fceb315cf74466c.php ç¬¬ 19 è¡Œ.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001623s ]
+
+[ 2016-07-09T10:39:11+08:00 ] 127.0.0.1 /dzp/index.php/Home/poll/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1098s ]
+SQL: SELECT `start_at`,`end_at`,`status` FROM `app_activities` WHERE ( id=3 and publish_status=1 ) LIMIT 1   [ RunTime:0.0729s ]
+NOTIC: [8] Undefined index: opentime_start D:\phpStudy\WWW\dzp\Application\Home\Controller\PollController.class.php ç¬¬ 117 è¡Œ.
+NOTIC: [8] Undefined index: opentime_end D:\phpStudy\WWW\dzp\Application\Home\Controller\PollController.class.php ç¬¬ 117 è¡Œ.
+NOTIC: [8] Undefined variable: activeStatus D:\phpStudy\WWW\dzp\Application\Home\Controller\PollController.class.php ç¬¬ 118 è¡Œ.
+SQL: UPDATE `app_activities` SET `start_at`='2016-04-01 00:00:00',`end_at`='2017-05-04 00:00:00',`status`='2' WHERE ( id=3 ) [ RunTime:0.0299s ]
+
+[ 2016-07-09T10:39:11+08:00 ] 127.0.0.1 /dzp/index.php/Home/poll/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0960s ]
+SQL: SELECT `start_at`,`end_at`,`status` FROM `app_activities` WHERE ( id=3 and publish_status=1 ) LIMIT 1   [ RunTime:0.0295s ]
+NOTIC: [8] Undefined index: opentime_start D:\phpStudy\WWW\dzp\Application\Home\Controller\PollController.class.php ç¬¬ 117 è¡Œ.
+NOTIC: [8] Undefined index: opentime_end D:\phpStudy\WWW\dzp\Application\Home\Controller\PollController.class.php ç¬¬ 117 è¡Œ.
+NOTIC: [8] Undefined variable: activeStatus D:\phpStudy\WWW\dzp\Application\Home\Controller\PollController.class.php ç¬¬ 118 è¡Œ.
+SQL: UPDATE `app_activities` SET `start_at`='2016-04-01 00:00:00',`end_at`='2017-05-04 00:00:00',`status`='2' WHERE ( id=3 ) [ RunTime:0.0291s ]
+
+[ 2016-07-09T10:39:41+08:00 ] 127.0.0.1 /dzp/index.php/Home/poll/details/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/3/empid/1/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1097s ]
+SQL: SELECT app_activities.name,app_activities.logo_url,app_activity_employee.employee_num,app_activity_employee.total_num,bd_users.photo_url FROM `app_activities` LEFT JOIN app_activity_employee on app_activity_employee.activity_id=app_activities.id LEFT JOIN bd_users on bd_users.id=app_activity_employee.employee_id  WHERE ( app_activity_employee.id=1 and app_activity_employee.publish_status=1 ) LIMIT 1   [ RunTime:0.0585s ]
+SQL: SHOW COLUMNS FROM `app_activity_employee` [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_employee` WHERE ( total_num>24 and publish_status=1 ) ORDER BY total_num desc LIMIT 1   [ RunTime:0.0301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined variable: logo D:\phpStudy\WWW\dzp\Application\Runtime\Cache\Home\4f18424c7cc3eaa44fceb315cf74466c.php ç¬¬ 19 è¡Œ.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2016-07-09T10:39:43+08:00 ] 127.0.0.1 /dzp/index.php/Home/poll/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1096s ]
+SQL: SELECT `start_at`,`end_at`,`status` FROM `app_activities` WHERE ( id=3 and publish_status=1 ) LIMIT 1   [ RunTime:0.0764s ]
+SQL: SHOW COLUMNS FROM `app_activity_employee_details` [ RunTime:0.0304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_employee_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and activity_id=3 and publish_status=1 ) LIMIT 1   [ RunTime:0.0297s ]
+SQL: SHOW COLUMNS FROM `app_activity_employee` [ RunTime:0.0305s ]
+SQL: SELECT `total_num` FROM `app_activity_employee` WHERE ( id=1 and publish_status=1 ) LIMIT 1   [ RunTime:0.0299s ]
+SQL: UPDATE `app_activity_employee` SET `total_num`='25' WHERE ( id=1 and publish_status=1 ) [ RunTime:0.0393s ]
+SQL: INSERT INTO `app_activity_employee_details` (`activity_id`,`employee_select_id`,`traffic_id`,`created_at`) VALUES ('3','1','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','2016-07-09 10:39:42') [ RunTime:0.0361s ]
+
+[ 2016-07-09T10:39:48+08:00 ] 127.0.0.1 /dzp/index.php/Home/poll/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1081s ]
+SQL: SELECT `start_at`,`end_at`,`status` FROM `app_activities` WHERE ( id=3 and publish_status=1 ) LIMIT 1   [ RunTime:0.0716s ]
+SQL: SHOW COLUMNS FROM `app_activity_employee_details` [ RunTime:0.0304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_employee_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and activity_id=3 and publish_status=1 ) LIMIT 1   [ RunTime:0.0302s ]
+SQL: SHOW COLUMNS FROM `app_activity_employee` [ RunTime:0.0343s ]
+SQL: SELECT `total_num` FROM `app_activity_employee` WHERE ( id=1 and publish_status=1 ) LIMIT 1   [ RunTime:0.0308s ]
+SQL: UPDATE `app_activity_employee` SET `total_num`='26' WHERE ( id=1 and publish_status=1 ) [ RunTime:0.0380s ]
+SQL: INSERT INTO `app_activity_employee_details` (`activity_id`,`employee_select_id`,`traffic_id`,`created_at`) VALUES ('3','1','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','2016-07-09 10:39:47') [ RunTime:0.0359s ]
+
+[ 2016-07-09T10:39:50+08:00 ] 127.0.0.1 /dzp/index.php/Home/poll/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1104s ]
+SQL: SELECT `start_at`,`end_at`,`status` FROM `app_activities` WHERE ( id=3 and publish_status=1 ) LIMIT 1   [ RunTime:0.0994s ]
+SQL: SHOW COLUMNS FROM `app_activity_employee_details` [ RunTime:0.0314s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_employee_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and activity_id=3 and publish_status=1 ) LIMIT 1   [ RunTime:0.0302s ]
+SQL: SHOW COLUMNS FROM `app_activity_employee` [ RunTime:0.0307s ]
+SQL: SELECT `total_num` FROM `app_activity_employee` WHERE ( id=1 and publish_status=1 ) LIMIT 1   [ RunTime:0.0306s ]
+SQL: UPDATE `app_activity_employee` SET `total_num`='27' WHERE ( id=1 and publish_status=1 ) [ RunTime:0.0375s ]
+SQL: INSERT INTO `app_activity_employee_details` (`activity_id`,`employee_select_id`,`traffic_id`,`created_at`) VALUES ('3','1','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','2016-07-09 10:39:50') [ RunTime:0.0370s ]
+
+[ 2016-07-09T10:40:34+08:00 ] 127.0.0.1 /dzp/index.php/home/dzp/index/activeid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-07-09T10:40:34+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1094s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=6 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0765s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 45 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+
+[ 2016-07-09T10:40:38+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/6.html?code=013VB3mf1kZPhm0cvBmf1xNZlf1VB3m7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1102s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=6 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0740s ]
+
+[ 2016-07-09T10:40:39+08:00 ] 127.0.0.1 /dzp/index.php/Home/Thq/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/6/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1100s ]
+SQL: SELECT app_activities.name,app_activities.logo_url,app_activities.regulation,app_activity_thq_details.is_open FROM `app_activities` LEFT JOIN app_activity_thq_details on app_activity_thq_details.activity_id=app_activities.id  WHERE ( app_activities.id=6 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0780s ]
+SQL: SHOW COLUMNS FROM `app_activity_thq` [ RunTime:0.0300s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'app_activities.opentime_start' in 'field list'
+
+[ 2016-07-09T10:42:21+08:00 ] 127.0.0.1 /dzp/index.php/Home/Thq/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/6/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+
+[ 2016-07-09T10:42:39+08:00 ] 127.0.0.1 /dzp/index.php/Home/Thq/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/6/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1087s ]
+SQL: SELECT app_activities.name,app_activities.logo_url,app_activities.regulation,app_activity_thq_details.is_open FROM `app_activities` LEFT JOIN app_activity_thq_details on app_activity_thq_details.activity_id=app_activities.id  WHERE ( app_activities.id=6 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0920s ]
+
+[ 2016-07-09T10:42:41+08:00 ] 127.0.0.1 /dzp/index.php/Home/Thq/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/6/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1092s ]
+SQL: SELECT app_activities.name,app_activities.logo_url,app_activities.regulation,app_activity_thq_details.is_open FROM `app_activities` LEFT JOIN app_activity_thq_details on app_activity_thq_details.activity_id=app_activities.id  WHERE ( app_activities.id=6 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0805s ]
+
+[ 2016-07-09T10:42:42+08:00 ] 127.0.0.1 /dzp/index.php/Home/Thq/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/6/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1095s ]
+SQL: SELECT app_activities.name,app_activities.logo_url,app_activities.regulation,app_activity_thq_details.is_open FROM `app_activities` LEFT JOIN app_activity_thq_details on app_activity_thq_details.activity_id=app_activities.id  WHERE ( app_activities.id=6 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0766s ]
+
+[ 2016-07-09T10:42:43+08:00 ] 127.0.0.1 /dzp/index.php/Home/Thq/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/6/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1099s ]
+SQL: SELECT app_activities.name,app_activities.logo_url,app_activities.regulation,app_activity_thq_details.is_open FROM `app_activities` LEFT JOIN app_activity_thq_details on app_activity_thq_details.activity_id=app_activities.id  WHERE ( app_activities.id=6 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0782s ]
+
+[ 2016-07-09T10:42:44+08:00 ] 127.0.0.1 /dzp/index.php/Home/Thq/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/6/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1086s ]
+SQL: SELECT app_activities.name,app_activities.logo_url,app_activities.regulation,app_activity_thq_details.is_open FROM `app_activities` LEFT JOIN app_activity_thq_details on app_activity_thq_details.activity_id=app_activities.id  WHERE ( app_activities.id=6 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0567s ]
+
+[ 2016-07-09T10:42:44+08:00 ] 127.0.0.1 /dzp/index.php/Home/Thq/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/6/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0831s ]
+SQL: SELECT app_activities.name,app_activities.logo_url,app_activities.regulation,app_activity_thq_details.is_open FROM `app_activities` LEFT JOIN app_activity_thq_details on app_activity_thq_details.activity_id=app_activities.id  WHERE ( app_activities.id=6 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0302s ]
+
+[ 2016-07-09T10:44:08+08:00 ] 127.0.0.1 /dzp/index.php/Home/Thq/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/6/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1108s ]
+SQL: SELECT app_activities.name,app_activities.logo_url,app_activities.regulation,app_activity_thq_details.is_open FROM `app_activities` LEFT JOIN app_activity_thq_details on app_activity_thq_details.activity_id=app_activities.id  WHERE ( app_activities.id=6 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0834s ]
+SQL: SHOW COLUMNS FROM `app_activity_thq` [ RunTime:0.0306s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'app_activities.opentime_start' in 'field list'
+
+[ 2016-07-09T10:54:29+08:00 ] 127.0.0.1 /dzp/index.php/Home/Thq/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/6/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1102s ]
+SQL: SELECT app_activities.name,app_activities.logo_url,app_activities.regulation,app_activity_thq_details.is_open FROM `app_activities` LEFT JOIN app_activity_thq_details on app_activity_thq_details.activity_id=app_activities.id  WHERE ( app_activities.id=6 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.1209s ]
+SQL: SHOW COLUMNS FROM `app_activity_thq` [ RunTime:0.0314s ]
+SQL: SELECT app_activity_thq.label_detail_everyday,app_activity_thq.maximum_label,app_activity_thq.repeat_num,app_activities.start_at,app_activities.end_at,app_activities.status FROM `app_activity_thq` INNER JOIN app_activities on app_activities.id=app_activity_thq.activity_id  WHERE ( app_activity_thq.activity_id=6 and app_activity_thq.publish_status=1 ) LIMIT 1   [ RunTime:0.1089s ]
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\WWW\dzp\Application\Home\Controller\ThqController.class.php ç¬¬ 30 è¡Œ.
+SQL: UPDATE `app_activity_thq` SET `label_detail_everyday`='a:2:{s:4:\"rand\";a:100:{i:0;i:1;i:1;i:2;i:2;i:3;i:3;i:4;i:4;i:5;i:5;i:6;i:6;i:7;i:7;i:8;i:8;i:9;i:9;i:10;i:10;i:11;i:11;i:12;i:12;i:13;i:13;i:14;i:14;i:15;i:15;i:16;i:16;i:17;i:17;i:18;i:18;i:19;i:19;i:20;i:20;i:21;i:21;i:22;i:22;i:23;i:23;i:24;i:24;i:25;i:25;i:26;i:26;i:27;i:27;i:28;i:28;i:29;i:29;i:30;i:30;i:31;i:31;i:32;i:32;i:33;i:33;i:34;i:34;i:35;i:35;i:36;i:36;i:37;i:37;i:38;i:38;i:39;i:39;i:40;i:40;i:41;i:41;i:42;i:42;i:43;i:43;i:44;i:44;i:45;i:45;i:46;i:46;i:47;i:47;i:48;i:48;i:49;i:49;i:50;i:50;i:51;i:51;i:52;i:52;i:53;i:53;i:54;i:54;i:55;i:55;i:56;i:56;i:57;i:57;i:58;i:58;i:59;i:59;i:60;i:60;i:61;i:61;i:62;i:62;i:63;i:63;i:64;i:64;i:65;i:65;i:66;i:66;i:67;i:67;i:68;i:68;i:69;i:69;i:70;i:70;i:71;i:71;i:72;i:72;i:73;i:73;i:74;i:74;i:75;i:75;i:76;i:76;i:77;i:77;i:78;i:78;i:79;i:79;i:80;i:80;i:81;i:81;i:82;i:82;i:83;i:83;i:84;i:84;i:85;i:85;i:86;i:86;i:87;i:87;i:88;i:88;i:89;i:89;i:90;i:90;i:91;i:91;i:92;i:92;i:93;i:93;i:94;i:94;i:95;i:95;i:96;i:96;i:97;i:97;i:98;i:98;i:99;i:99;i:100;}s:10:\"updatetime\";s:19:\"2016-07-09 10:54:29\";}' WHERE ( activity_id=6 and publish_status=1 ) [ RunTime:0.0967s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-07-09T10:55:07+08:00 ] 127.0.0.1 /dzp/index.php/home/dzp/index/activeid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+
+[ 2016-07-09T10:55:08+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1086s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=3 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0306s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 45 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+
+[ 2016-07-09T10:55:12+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/3.html?code=013iWEj22Oxcr21hvVm22pvEj22iWEjK
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1111s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=3 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.1011s ]
+
+[ 2016-07-09T10:55:12+08:00 ] 127.0.0.1 /dzp/index.php/Home/poll/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/3/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0961s ]
+SQL: SELECT app_activities.name,app_activities.regulation,app_activities.logo_url,app_activity_employee.id,app_activity_employee.total_num,app_activity_employee.employee_num,bd_users.name as empname,bd_users.photo_url FROM `app_activities` LEFT JOIN app_activity_employee on app_activities.id=app_activity_employee.activity_id LEFT JOIN bd_users on bd_users.id=app_activity_employee.employee_id  WHERE ( app_activities.id=3 and app_activities.publish_status=1 )  [ RunTime:0.0296s ]
+SQL: SHOW COLUMNS FROM `app_activity_employee` [ RunTime:0.0303s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_employee` WHERE ( total_num>27 and publish_status=1 ) ORDER BY total_num desc LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_employee` WHERE ( total_num>4 and publish_status=1 ) ORDER BY total_num desc LIMIT 1   [ RunTime:0.0302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2016-07-09T10:55:19+08:00 ] 127.0.0.1 /dzp/index.php/home/dzp/index/activeid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-07-09T10:55:19+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1089s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=3 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0723s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 45 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+
+[ 2016-07-09T10:55:23+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/3.html?code=013bfuKm0S3bGe1dkEJm0W3sKm0bfuKW
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1090s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=3 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.1006s ]
+
+[ 2016-07-09T10:55:23+08:00 ] 127.0.0.1 /dzp/index.php/Home/poll/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/3/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0850s ]
+SQL: SELECT app_activities.name,app_activities.regulation,app_activities.logo_url,app_activity_employee.id,app_activity_employee.total_num,app_activity_employee.employee_num,bd_users.name as empname,bd_users.photo_url FROM `app_activities` LEFT JOIN app_activity_employee on app_activities.id=app_activity_employee.activity_id LEFT JOIN bd_users on bd_users.id=app_activity_employee.employee_id  WHERE ( app_activities.id=3 and app_activities.publish_status=1 )  [ RunTime:0.0301s ]
+SQL: SHOW COLUMNS FROM `app_activity_employee` [ RunTime:0.0297s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_employee` WHERE ( total_num>27 and publish_status=1 ) ORDER BY total_num desc LIMIT 1   [ RunTime:0.0297s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_employee` WHERE ( total_num>4 and publish_status=1 ) ORDER BY total_num desc LIMIT 1   [ RunTime:0.0295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2016-07-09T10:55:28+08:00 ] 127.0.0.1 /dzp/index.php/home/dzp/index/activeid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+
+[ 2016-07-09T10:55:28+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1096s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=2 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0727s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 45 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+
+[ 2016-07-09T10:55:32+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/2.html?code=003zelBw1Iact50jJUCw121lBw1zelBU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1100s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=2 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0752s ]
+
+[ 2016-07-09T10:55:33+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0946s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0927s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.1014s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2016-07-09T10:55:35+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1102s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0584s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0298s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0299s ]
+
+[ 2016-07-09T10:56:32+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0582s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1849s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0693s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2016-07-09T10:56:33+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1100s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1001s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.1043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0306s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and prize_level!=6 and publish_status=1 ) LIMIT 1   [ RunTime:0.0303s ]
+
+[ 2016-07-09T10:56:50+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1091s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1899s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0672s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-07-09T10:56:52+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1109s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1013s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0322s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and prize_level!=6 and publish_status=1 ) LIMIT 1   [ RunTime:0.0303s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0311s ]
+SQL: SELECT `prize_level`,`probability` FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 )  [ RunTime:0.0304s ]
+SQL: SELECT `day_num`,`total_num` FROM `app_activity_dzp` WHERE ( prize_level=5 and activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0309s ]
+SQL: INSERT INTO `app_activity_dzp_details` (`activity_id`,`traffic_id`,`prize_level`,`is_send_prize`,`created_at`,`updated_at`) VALUES ('2','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','6','0','2016-07-09 10:56:52','2016-07-09 10:56:52') [ RunTime:0.0376s ]
+
+[ 2016-07-09T10:57:02+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1001s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0307s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0298s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and prize_level!=6 and publish_status=1 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0304s ]
+SQL: SELECT `prize_level`,`probability` FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 )  [ RunTime:0.0300s ]
+SQL: SELECT `day_num`,`total_num` FROM `app_activity_dzp` WHERE ( prize_level=5 and activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0305s ]
+SQL: INSERT INTO `app_activity_dzp_details` (`activity_id`,`traffic_id`,`prize_level`,`is_send_prize`,`created_at`,`updated_at`) VALUES ('2','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','6','0','2016-07-09 10:57:02','2016-07-09 10:57:02') [ RunTime:0.0372s ]
+
+[ 2016-07-09T10:57:10+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1174s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0652s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0312s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0307s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and prize_level!=6 and publish_status=1 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0309s ]
+SQL: SELECT `prize_level`,`probability` FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 )  [ RunTime:0.0304s ]
+SQL: SELECT `day_num`,`total_num` FROM `app_activity_dzp` WHERE ( prize_level=2 and activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0300s ]
+SQL: UPDATE `app_activity_dzp` SET `total_num`='59',`day_num`='7' WHERE ( prize_level=2 and activity_id=2 and publish_status=1 ) [ RunTime:0.0387s ]
+SQL: INSERT INTO `app_activity_dzp_details` (`activity_id`,`traffic_id`,`prize_level`,`is_send_prize`,`created_at`,`updated_at`) VALUES ('2','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','2','0','2016-07-09 10:57:10','2016-07-09 10:57:10') [ RunTime:0.0390s ]
+
+[ 2016-07-09T10:57:18+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/submit/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf/grade/%E4%BA%8C%E7%AD%89%E5%A5%96.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0811s ]
+SQL: SELECT `name`,`logo_url` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0296s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0295s ]
+SQL: SELECT `name`,`phone`,`address` FROM `app_activity_dzp_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and prize_level!=6 and activity_id=2 and publish_status=1 ) ORDER BY created_at desc LIMIT 1   [ RunTime:0.0293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-07-09T16:26:56+08:00 ] 127.0.0.1 /dzp/index.php/home/dzp/index/activeid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+
+[ 2016-07-09T16:26:57+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0730s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=2 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0237s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 45 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php ç¬¬ 51 è¡Œ.
+
+[ 2016-07-09T16:27:01+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/2.html?code=003rtgx00tsGSB1npZx00Cidx00rtgxg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0965s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=2 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0695s ]
+
+[ 2016-07-09T16:27:01+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0778s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0761s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0889s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001876s ]
+
+[ 2016-07-09T16:27:04+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0990s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0633s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0241s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0231s ]
+
+[ 2016-07-09T16:27:49+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0960s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0621s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0243s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0235s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and prize_level!=6 and publish_status=1 ) LIMIT 1   [ RunTime:0.0237s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0236s ]
+SQL: SELECT `prize_level`,`probability` FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 )  [ RunTime:0.0237s ]
+SQL: SELECT `day_num`,`total_num` FROM `app_activity_dzp` WHERE ( prize_level=4 and activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0230s ]
+SQL: INSERT INTO `app_activity_dzp_details` (`activity_id`,`traffic_id`,`prize_level`,`is_send_prize`,`created_at`,`updated_at`) VALUES ('2','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','6','0','2016-07-09 16:27:49','2016-07-09 16:27:49') [ RunTime:0.1343s ]
+
+[ 2016-07-09T16:45:55+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0972s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1555s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0595s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-07-09T16:45:57+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0972s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0656s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0238s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and prize_level!=6 and publish_status=1 ) LIMIT 1   [ RunTime:0.0237s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0251s ]
+SQL: SELECT `prize_level`,`probability` FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 )  [ RunTime:0.0271s ]
+SQL: SELECT `day_num`,`total_num` FROM `app_activity_dzp` WHERE ( prize_level=4 and activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0235s ]
+SQL: INSERT INTO `app_activity_dzp_details` (`activity_id`,`traffic_id`,`prize_level`,`is_send_prize`,`created_at`,`updated_at`) VALUES ('2','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','6','0','2016-07-09 16:45:57','2016-07-09 16:45:57') [ RunTime:0.1322s ]
+
+[ 2016-07-09T16:46:10+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0951s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0850s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0246s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0243s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and prize_level!=6 and publish_status=1 ) LIMIT 1   [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0242s ]
+SQL: SELECT `prize_level`,`probability` FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 )  [ RunTime:0.0244s ]
+SQL: SELECT `day_num`,`total_num` FROM `app_activity_dzp` WHERE ( prize_level=3 and activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0249s ]
+SQL: INSERT INTO `app_activity_dzp_details` (`activity_id`,`traffic_id`,`prize_level`,`is_send_prize`,`created_at`,`updated_at`) VALUES ('2','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','6','0','2016-07-09 16:46:10','2016-07-09 16:46:10') [ RunTime:0.1360s ]
+
+[ 2016-07-09T16:46:12+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0966s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1321s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0600s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2016-07-09T16:46:13+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0963s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0666s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and prize_level!=6 and publish_status=1 ) LIMIT 1   [ RunTime:0.0229s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0234s ]
+SQL: SELECT `prize_level`,`probability` FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 )  [ RunTime:0.0236s ]
+SQL: SELECT `day_num`,`total_num` FROM `app_activity_dzp` WHERE ( prize_level=2 and activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0231s ]
+SQL: INSERT INTO `app_activity_dzp_details` (`activity_id`,`traffic_id`,`prize_level`,`is_send_prize`,`created_at`,`updated_at`) VALUES ('2','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','6','0','2016-07-09 16:46:13','2016-07-09 16:46:13') [ RunTime:0.0689s ]
+
+[ 2016-07-09T16:46:43+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0961s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1377s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0636s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0232s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2016-07-09T16:54:21+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0967s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1590s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0607s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-07-09T16:54:23+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0971s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0659s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0247s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0242s ]
+
+[ 2016-07-09T16:55:07+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0960s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1379s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0662s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2016-07-09T16:55:09+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0971s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0652s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0237s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0232s ]
+
+[ 2016-07-09T17:05:40+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1024s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1357s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0596s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0233s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2016-07-09T17:05:42+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0973s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0642s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0246s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0238s ]
+
+[ 2016-07-09T17:05:51+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0976s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0632s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0247s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0244s ]
+
+[ 2016-07-09T17:15:16+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0962s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1396s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0627s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0232s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2016-07-09T17:15:17+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0967s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0662s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0245s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0235s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and prize_level!=6 and publish_status=1 ) LIMIT 1   [ RunTime:0.0231s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0249s ]
+SQL: SELECT `prize_level`,`probability` FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 )  [ RunTime:0.0247s ]
+SQL: SELECT `day_num`,`total_num` FROM `app_activity_dzp` WHERE ( prize_level=5 and activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0241s ]
+SQL: INSERT INTO `app_activity_dzp_details` (`activity_id`,`traffic_id`,`prize_level`,`is_send_prize`,`created_at`,`updated_at`) VALUES ('2','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','6','0','2016-07-09 17:15:17','2016-07-09 17:15:17') [ RunTime:0.1331s ]
+
+[ 2016-07-09T17:15:58+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0971s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1409s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0624s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0241s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-07-09T17:16:00+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0958s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0642s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0243s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0235s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and prize_level!=6 and publish_status=1 ) LIMIT 1   [ RunTime:0.0233s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0235s ]
+SQL: SELECT `prize_level`,`probability` FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 )  [ RunTime:0.0228s ]
+SQL: SELECT `day_num`,`total_num` FROM `app_activity_dzp` WHERE ( prize_level=5 and activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0233s ]
+SQL: INSERT INTO `app_activity_dzp_details` (`activity_id`,`traffic_id`,`prize_level`,`is_send_prize`,`created_at`,`updated_at`) VALUES ('2','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','6','0','2016-07-09 17:16:00','2016-07-09 17:16:00') [ RunTime:0.1332s ]
+
+[ 2016-07-09T17:16:19+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0973s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0657s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0235s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and prize_level!=6 and publish_status=1 ) LIMIT 1   [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0243s ]
+SQL: SELECT `prize_level`,`probability` FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 )  [ RunTime:0.0242s ]
+SQL: SELECT `day_num`,`total_num` FROM `app_activity_dzp` WHERE ( prize_level=4 and activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0244s ]
+SQL: INSERT INTO `app_activity_dzp_details` (`activity_id`,`traffic_id`,`prize_level`,`is_send_prize`,`created_at`,`updated_at`) VALUES ('2','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','6','0','2016-07-09 17:16:18','2016-07-09 17:16:18') [ RunTime:0.1330s ]
+
+[ 2016-07-09T17:17:19+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0966s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0241s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and prize_level!=6 and publish_status=1 ) LIMIT 1   [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0235s ]
+SQL: SELECT `prize_level`,`probability` FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 )  [ RunTime:0.0239s ]
+SQL: INSERT INTO `app_activity_dzp_details` (`activity_id`,`traffic_id`,`prize_level`,`is_send_prize`,`created_at`,`updated_at`) VALUES ('2','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','6','0','2016-07-09 17:17:19','2016-07-09 17:17:19') [ RunTime:0.1331s ]
+
+[ 2016-07-09T17:18:55+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0962s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1398s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0601s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2016-07-09T17:18:58+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0972s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0633s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0245s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0238s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and prize_level!=6 and publish_status=1 ) LIMIT 1   [ RunTime:0.0233s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0241s ]
+SQL: SELECT `prize_level`,`probability` FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 )  [ RunTime:0.0235s ]
+SQL: SELECT `day_num`,`total_num` FROM `app_activity_dzp` WHERE ( prize_level=3 and activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0229s ]
+SQL: INSERT INTO `app_activity_dzp_details` (`activity_id`,`traffic_id`,`prize_level`,`is_send_prize`,`created_at`,`updated_at`) VALUES ('2','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','6','0','2016-07-09 17:18:58','2016-07-09 17:18:58') [ RunTime:0.1322s ]
+
+[ 2016-07-09T17:19:18+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0963s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0647s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and prize_level!=6 and publish_status=1 ) LIMIT 1   [ RunTime:0.0232s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0236s ]
+SQL: SELECT `prize_level`,`probability` FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 )  [ RunTime:0.0236s ]
+SQL: SELECT `day_num`,`total_num` FROM `app_activity_dzp` WHERE ( prize_level=5 and activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0228s ]
+SQL: INSERT INTO `app_activity_dzp_details` (`activity_id`,`traffic_id`,`prize_level`,`is_send_prize`,`created_at`,`updated_at`) VALUES ('2','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','6','0','2016-07-09 17:19:18','2016-07-09 17:19:18') [ RunTime:0.0499s ]
+
+[ 2016-07-09T17:20:02+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1058s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0775s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0388s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0303s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and prize_level!=6 and publish_status=1 ) LIMIT 1   [ RunTime:0.0352s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0246s ]
+SQL: SELECT `prize_level`,`probability` FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 )  [ RunTime:0.0244s ]
+SQL: SELECT `day_num`,`total_num` FROM `app_activity_dzp` WHERE ( prize_level=5 and activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0242s ]
+SQL: INSERT INTO `app_activity_dzp_details` (`activity_id`,`traffic_id`,`prize_level`,`is_send_prize`,`created_at`,`updated_at`) VALUES ('2','23a6e08f-92ac-48ab-bd1e-207a55c5fccf','6','0','2016-07-09 17:20:02','2016-07-09 17:20:02') [ RunTime:0.1322s ]
+
+[ 2016-07-09T17:20:27+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0971s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1332s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0595s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0235s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2016-07-09T17:20:29+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0965s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0847s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0241s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0232s ]
+
+[ 2016-07-09T17:20:31+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0958s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0631s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0235s ]
+
+[ 2016-07-09T17:50:52+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0953s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1396s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0630s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-07-09T17:51:53+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0959s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1389s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0596s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0235s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2016-07-09T17:53:42+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0963s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1486s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0637s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002092s ]
+
+[ 2016-07-09T17:55:37+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0949s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1414s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0607s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0235s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2016-07-09T17:55:41+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0971s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0663s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0234s ]
+
+[ 2016-07-09T17:55:48+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0993s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0661s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0242s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0237s ]
+
+[ 2016-07-09T17:55:56+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0966s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0591s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0248s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0809s ]
+
+[ 2016-07-09T17:59:48+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0961s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1356s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0606s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-07-09T17:59:57+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0957s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0619s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0255s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0232s ]
+
+[ 2016-07-09T18:03:01+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/openid/oVQvCjn6Tx43oAaE76GJT0YjnGPY/activeid/2/trafficid/23a6e08f-92ac-48ab-bd1e-207a55c5fccf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0959s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.1378s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0584s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2016-07-09T18:03:03+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0977s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0669s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0237s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0235s ]
+
+[ 2016-07-09T18:03:16+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0957s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0649s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0234s ]
+
+[ 2016-07-09T18:03:48+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0993s ]
+SQL: SELECT `status`,`start_at`,`end_at` FROM `app_activities` WHERE ( id=2 and publish_status=1 ) LIMIT 1   [ RunTime:0.0642s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0242s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=2 and traffic_id="23a6e08f-92ac-48ab-bd1e-207a55c5fccf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0238s ]
+

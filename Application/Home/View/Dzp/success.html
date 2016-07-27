@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<title>
+<{$name}>
+</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=no" /> 
+<!--移动端版本兼容 end -->
+<link href="__PUBLIC__/css/example.css" rel="stylesheet" type="text/css">
+<link href="__PUBLIC__/css/weui.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    body{font: normal 100% Helvetica, Arial, sans-serif;color:#fff;background-color: #e62d2d;}
+</style>
+</head>
+<body>
+<div id="bg">
+<div style='position: absolute; left:0px; top:0px;z-index: 999;'><img src="<{$logo}>" height="64" width="64"/></div>
+<div id="msgbox" style="margin:0 auto;text-align: center;width:50%;">
+
+        <div style="margin-top: 30px;text-align: center;" id="msgspan">
+              恭喜获得<{$grade}>哦~~
+        </div>
+        <div style="margin-left:10px;margin-top:30px;text-align:left;">姓名:<{$username}></div>
+        <div style="margin-left:10px;margin-top:30px;text-align:left;">电话:<{$phone}></div>
+        <div style="margin-left:10px;margin-top:30px;text-align:left;">地址:<{$address}></div>
+        <if condition="$is_send_prize eq 0 ">
+            <div style="margin:0 auto;margin-top:30px;"><a href="<{:U('Dzp/submit',array('openid'=>$openid,'trafficid'=>$trafficid,'activeid'=>$activeid,'grade'=>$grade))}>" class="weui_btn weui_btn_default">修改信息</a></div>
+        <elseif condition="$is_send_prize eq 1 " />
+        <div style="margin:0 auto;margin-top: 30px;"><a href="javascript:;" class="weui_btn weui_btn_default">您的奖品已发出</a></div>
+        </if>
+        
+</div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.2.min.js"></script>
+</body> 
+
+</html> 

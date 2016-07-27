@@ -1,0 +1,6 @@
+[ 2016-03-06T12:44:05+08:00 ] 127.0.0.1 /thinkphp/index.php?s=/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Index
+

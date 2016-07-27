@@ -1,0 +1,420 @@
+[ 2015-12-21T10:50:12+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021966s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T10:51:05+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T10:53:52+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T10:54:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T10:54:26+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T10:55:51+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T11:00:27+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T11:00:49+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/menu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T11:07:09+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T11:22:03+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T11:47:15+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001608s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T11:49:34+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T11:49:38+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T11:52:38+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T11:56:47+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T11:57:32+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T11:57:34+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T11:57:35+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T11:59:49+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T11:59:56+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T11:59:58+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:00:00+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:00:22+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:00:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:20:26+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000264s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020600s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:20:29+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:20:38+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:21:37+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:21:42+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:22:54+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:23:01+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:23:03+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:23:43+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:23:44+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:23:46+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:23:47+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:23:48+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:31:09+08:00 ] 127.0.0.1 /thinkphp/index.php/admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:31:13+08:00 ] 127.0.0.1 /thinkphp/index.php/admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:31:17+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T12:31:20+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:24:41+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020600s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:40:08+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:40:11+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:40:13+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:40:14+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:40:15+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:40:17+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:40:17+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:40:18+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:40:19+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:40:21+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:40:22+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:40:23+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:40:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:40:25+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:40:26+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:40:27+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:58:24+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:58:27+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T13:58:28+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T14:01:51+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T14:01:53+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T14:08:38+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T14:08:42+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T14:08:43+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T14:34:48+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T15:06:47+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T15:16:15+08:00 ] 127.0.0.1 /thinkphp/index.php/admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-12-21T15:16:20+08:00 ] 127.0.0.1 /thinkphp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载模块:Admin
+

@@ -1,0 +1,12 @@
+[ 2016-03-29T17:33:35+08:00 ] 127.0.0.1 /thinkphp/index.php/Dzp/submit/activeid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+ERR: 无法加载模块:Dzp
+
+[ 2016-03-29T18:10:40+08:00 ] 127.0.0.1 /thinkphp/index.php/Dzp/submit/activeid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载模块:Dzp
+
