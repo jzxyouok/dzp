@@ -80,7 +80,7 @@ class WeixinOAuth extends Controller{
          
             $data=array('publicuserid'=>$realid,'code'=>$code);
             $data=  json_encode($data);
-            $url = 'http://10.6.28.135:10401/opensocial-gateway/GWService';//OpensocialVivo的入口地址,此入口地址可以写到配置文件中
+            $url = 'http://10.6.28.125:10401/opensocial-gateway/GWService';//OpensocialVivo的入口地址,此入口地址可以写到配置文件中
             $postData ='accesscode=93f629348fce4a3855ad1a927b282c94&method=oauth2GetInfo&data='.$data;//OpensocialVivo请求时的参数
 
             //初始化curl
@@ -109,7 +109,7 @@ class WeixinOAuth extends Controller{
 //            $data='realId='.$realId.'&socialId='.$socialId.'&code='.$code;
             $data='socialId='.$socialId.'&code='.$code;
             //$data=  json_encode($data);
-            $url = 'http://10.6.28.135:10501/business-service-core/traffic/wechat/oauth2?'.$data;//调用BS提供的地址，需要跟BS同事要,此入口地址可以写到配置文件中
+            $url = 'http://10.6.28.125:10501/business-service-core/traffic/wechat/oauth2?'.$data;//调用BS提供的地址，需要跟BS同事要,此入口地址可以写到配置文件中
             
             //初始化curl
             $ch = curl_init();
@@ -137,7 +137,7 @@ class WeixinOAuth extends Controller{
 
             $data= 'trafficRealId='.$trafficRealId.'&socialId='.$socialId;
             //$data=  json_encode($data);
-            $url = 'http://10.6.28.135:10501/business-service-core/traffic';//调用BS提供的地址，需要跟BS同事要,此入口地址可以写到配置文件中
+            $url = 'http://10.6.28.125:10501/business-service-core/traffic';//调用BS提供的地址，需要跟BS同事要,此入口地址可以写到配置文件中
             
             //初始化curl
             $ch = curl_init();
@@ -165,7 +165,7 @@ class WeixinOAuth extends Controller{
            
             $data='realId='.$realId.'&socialType='.$socialType;
             //$data=  json_encode($data);
-            $url = 'http://10.6.28.135:10501/business-service-core/traffic/identity_recognition?'.$data;//调用BS提供的地址，需要跟BS同事要,此入口地址可以写到配置文件中
+            $url = 'http://10.6.28.125:10501/business-service-core/traffic/identity_recognition?'.$data;//调用BS提供的地址，需要跟BS同事要,此入口地址可以写到配置文件中
             
             //初始化curl
             $ch = curl_init();

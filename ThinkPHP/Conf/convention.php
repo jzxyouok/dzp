@@ -54,7 +54,7 @@ return  array(
 
     /* 数据库设置 */
     'DB_TYPE'               =>  'mysql',     // 数据库类型
-    'DB_HOST'               =>  '10.6.28.35', // 服务器地址
+    'DB_HOST'               =>  '10.6.28.93', // 服务器地址
     'DB_NAME'               =>  'scrmdata',          // 数据库名
     'DB_USER'               =>  'huntor',      // 用户名
     'DB_PWD'                =>  'huntor2016',          // 密码
