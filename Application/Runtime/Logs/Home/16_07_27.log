@@ -966,3 +966,2194 @@ INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
 SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0962s ]
 SQL: SELECT `status`,`start_at`,`end_at`,`times` FROM `app_activities` WHERE ( id=30 and publish_status=1 ) LIMIT 1   [ RunTime:0.0828s ]
 
+[ 2016-07-27T10:41:54+08:00 ] 127.0.0.1 /dzp/index.php/home/dzp/index/activeid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+
+[ 2016-07-27T10:41:55+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0471s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0443s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:41:59+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003SvT2J1ZqWcb0mdY0J1ENU2J1SvT2v
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0454s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0448s ]
+
+[ 2016-07-27T10:41:59+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+
+[ 2016-07-27T10:41:59+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0462s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0444s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:42:02+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003HoFPe1AjWVm0YZzNe1rDMPe1HoFPA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0493s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0471s ]
+
+[ 2016-07-27T10:42:02+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-07-27T10:42:03+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0490s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0485s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:42:06+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=0135cAtJ0aBgRk2s0mrJ0k7BtJ05cAtJ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0501s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0473s ]
+
+[ 2016-07-27T10:42:06+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-07-27T10:42:07+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.5289s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0485s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:42:11+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013MHSze0nKSFF1nu5Be0vLRze0MHSzK
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0463s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0438s ]
+
+[ 2016-07-27T10:42:11+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-07-27T10:42:11+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0466s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0440s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:42:15+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013oc3hG0ZKW962KIYdG01a2hG0oc3h7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0469s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0452s ]
+
+[ 2016-07-27T10:42:15+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-07-27T10:42:15+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0456s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0502s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:42:18+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003Po0WB1Ar5Jh0TKTYB16rVVB1Po0Wj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0459s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0450s ]
+
+[ 2016-07-27T10:42:18+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+
+[ 2016-07-27T10:42:19+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0454s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0439s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:42:23+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013olCO92Bb7UC0UXYL92jFuO92olCOo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0462s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0442s ]
+
+[ 2016-07-27T10:42:23+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-07-27T10:42:23+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0465s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0452s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:42:27+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003ZuI8d0ixevG1qo5cd0YoH8d0ZuI8X
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0459s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0451s ]
+
+[ 2016-07-27T10:42:27+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-07-27T10:42:27+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0456s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0432s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:42:31+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013BKnBI121QTb0OHwEI1O0mBI1BKnBt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0470s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0733s ]
+
+[ 2016-07-27T10:42:31+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-07-27T10:42:31+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1221s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0456s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:42:35+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013yjcLZ0yI9gN16X9LZ0lqdLZ0yjcLl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0454s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0444s ]
+
+[ 2016-07-27T10:42:35+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-07-27T10:42:35+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0457s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0444s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:42:39+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=0130QrxS0zvrAT1J5TwS0pOqxS00Qrxf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0451s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0444s ]
+
+[ 2016-07-27T10:42:39+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-07-27T10:42:39+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0461s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0440s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:42:43+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003RgS371wwbPX1eRi571seR371RgS3v
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0462s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0451s ]
+
+[ 2016-07-27T10:42:43+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+
+[ 2016-07-27T10:42:43+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0758s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0239s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:42:47+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003m0Hzf0RPAoE1KbtBf0FFJzf0m0Hzw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0464s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0443s ]
+
+[ 2016-07-27T10:42:47+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-07-27T10:42:47+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0767s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0231s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:42:51+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=0034inCi2IfUHL0jUUCi2w2pCi24inCO
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0468s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0451s ]
+
+[ 2016-07-27T10:42:51+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+
+[ 2016-07-27T10:42:51+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0460s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0447s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:42:55+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003vrHH611dxBX10SQH61teGH61vrHH1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0476s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0435s ]
+
+[ 2016-07-27T10:42:55+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-07-27T10:42:55+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0453s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0449s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:42:59+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013tnaoz0LXVxk1yDboz0euboz0tnaoQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0458s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0438s ]
+
+[ 2016-07-27T10:42:59+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-07-27T10:42:59+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018443s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0460s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0444s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:43:03+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003nyIOl0iwfZf1B1lPl00BJOl0nyIOs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0461s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0443s ]
+
+[ 2016-07-27T10:43:03+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-07-27T10:43:03+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0461s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0436s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:43:03+08:00 ] 127.0.0.1 /dzp/index.php/home/dzp/index/activeid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+
+[ 2016-07-27T10:43:04+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0461s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0443s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:43:07+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013J77HC0jBMs92O5AGC0ardHC0J77Hl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0960s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0600s ]
+
+[ 2016-07-27T10:43:07+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+
+[ 2016-07-27T10:43:08+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1050s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0440s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:43:11+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013PFri81dL7RW1cuQf81kMsi81PFril
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0981s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0634s ]
+
+[ 2016-07-27T10:43:11+08:00 ] 127.0.0.1 /dzp/index.php/home/dzp/index/activeid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+
+[ 2016-07-27T10:43:12+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0587s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0879s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:43:16+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013YsKMB0rG2Ya2r3CMB0xSIMB0YsKMv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0490s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0902s ]
+
+[ 2016-07-27T10:43:16+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-07-27T10:43:17+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0498s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0864s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:43:31+08:00 ] 127.0.0.1 /dzp/index.php/home/dzp/index/activeid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+
+[ 2016-07-27T10:43:31+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0461s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0451s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:43:35+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003ghX7b1raibr0g8T6b1TxV7b1ghX71
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0457s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0443s ]
+
+[ 2016-07-27T10:43:35+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-07-27T10:43:35+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0454s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0448s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:43:39+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013h8FTa167zSq0AAuVa1mqGTa1h8FTj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0456s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0446s ]
+
+[ 2016-07-27T10:43:39+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-07-27T10:43:39+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0460s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0952s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:43:43+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003HVgM51wa6OY1Pj5P51bTaM51HVgMP
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0454s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0457s ]
+
+[ 2016-07-27T10:43:43+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-07-27T10:43:43+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0507s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0515s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:43:47+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013pVKwD0x4la9259ixD00DFwD0pVKw9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0460s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0440s ]
+
+[ 2016-07-27T10:43:47+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-07-27T10:43:47+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0472s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0474s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:43:51+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013RpDmi2leuNM02KQmi2mwEmi2RpDmQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0816s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0256s ]
+
+[ 2016-07-27T10:43:51+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-07-27T10:43:52+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1590s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0804s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:43:56+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003lDZAu13jdU60o5Fxu1mF2Bu1lDZA2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0469s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0450s ]
+
+[ 2016-07-27T10:43:56+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-07-27T10:43:56+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0965s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0652s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:44:00+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013TE2KL0mVnAi2XlCKL0oqVJL0TE2KR
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.1025s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0549s ]
+
+[ 2016-07-27T10:44:00+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+
+[ 2016-07-27T10:44:00+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0472s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0446s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:44:06+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013eL0JS1XLa1U0hvHIS1rK4JS1eL0Jk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0462s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0452s ]
+
+[ 2016-07-27T10:44:06+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-07-27T10:44:06+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0793s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0228s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:44:10+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=0138PwRr0v0pMr1bYRRr0VMtRr08PwRA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0461s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0451s ]
+
+[ 2016-07-27T10:44:10+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+
+[ 2016-07-27T10:44:10+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0468s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0456s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:44:14+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013VxizK1Zrf790SBXvK1KsqzK1Vxizt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0460s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0448s ]
+
+[ 2016-07-27T10:44:14+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+
+[ 2016-07-27T10:44:14+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0466s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0833s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:44:18+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013KVq1X16f5k717jH2X1y5k1X1KVq1p
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0460s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0506s ]
+
+[ 2016-07-27T10:44:18+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+
+[ 2016-07-27T10:44:18+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0764s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0241s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:44:22+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013mKNki1UHoHj0uiNni1v1Qki1mKNkB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0970s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0580s ]
+
+[ 2016-07-27T10:44:22+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-07-27T10:44:22+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0464s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0447s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:44:26+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013JQm7221Cuc21Cvsa22jxl722JQm7z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0523s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0493s ]
+
+[ 2016-07-27T10:44:26+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+
+[ 2016-07-27T10:44:26+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0497s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0475s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:44:30+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=0037vGAP1GhRyW0eRiAP19YzAP17vGAA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0495s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.2787s ]
+
+[ 2016-07-27T10:44:30+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+
+[ 2016-07-27T10:44:31+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0498s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.2823s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:44:35+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003uDQU10bDbPz1XYAX10gCSU10uDQUH
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.4943s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.1199s ]
+
+[ 2016-07-27T10:44:35+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-07-27T10:44:35+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0496s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0470s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:44:39+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=0131h1qR0VkpUc2nvmqR0xRXpR01h1qG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0495s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0836s ]
+
+[ 2016-07-27T10:44:39+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-07-27T10:44:40+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0489s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0488s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:44:43+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003lVMxm03puvf1utjym0PoPxm0lVMxs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0505s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0487s ]
+
+[ 2016-07-27T10:44:43+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-07-27T10:44:44+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.6449s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0475s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:44:48+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=0031VmRH1ujg5c0wBSRH1WHkRH11VmRg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0961s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0613s ]
+
+[ 2016-07-27T10:44:48+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+
+[ 2016-07-27T10:44:48+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0460s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0440s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:44:52+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003E5PGL0XdkBi247WGL0pZNGL0E5PGG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0465s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0445s ]
+
+[ 2016-07-27T10:44:52+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+
+[ 2016-07-27T10:44:52+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0455s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0449s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:44:56+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003n2tU41GjNh02QOwU41MJuU41n2tU1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0460s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0451s ]
+
+[ 2016-07-27T10:44:56+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-07-27T10:44:56+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0462s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0449s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:45:00+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003wwfsn0FBIhe1MhAsn0IGhsn0wwfsw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0459s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0450s ]
+
+[ 2016-07-27T10:45:00+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-07-27T10:45:00+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0500s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0469s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:45:04+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003NmB3g2YRPOO0wmg3g2JoD3g2NmB3n
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0497s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0488s ]
+
+[ 2016-07-27T10:45:04+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-07-27T10:45:04+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0776s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0247s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:45:08+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=0139biki0WHXrj10mNki0Z3fki09bike
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.4962s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0697s ]
+
+[ 2016-07-27T10:45:08+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-07-27T10:45:09+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0496s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0859s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:45:17+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013eT3sV0hzjGQ1TGeqV0HG6sV0eT3sc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0457s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0455s ]
+
+[ 2016-07-27T10:45:17+08:00 ] 127.0.0.1 /dzp/index.php/home/dzp/index/activeid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+
+[ 2016-07-27T10:45:18+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0454s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0452s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:45:21+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013bCSer174Yns0eb1gr1W5Oer1bCSeX
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0468s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0450s ]
+
+[ 2016-07-27T10:45:21+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-07-27T10:45:21+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0454s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0441s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:45:25+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013Ky6Qg06idoD1ZbIQg0LX2Qg0Ky6QU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0462s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0452s ]
+
+[ 2016-07-27T10:45:25+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-07-27T10:45:25+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0626s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0230s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:45:29+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003h7kek03s0Oh1SiZek0Yrhek0h7ke7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0960s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0628s ]
+
+[ 2016-07-27T10:45:29+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-07-27T10:45:29+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0463s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0854s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:45:33+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013La1lp0lZaHc1bvelp04c5lp0La1lV
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0482s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0444s ]
+
+[ 2016-07-27T10:45:33+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-07-27T10:45:33+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0459s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0442s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:45:37+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013W1Arb2vOpgB0UkNqb2hHArb2W1Arz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0985s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0628s ]
+
+[ 2016-07-27T10:45:37+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-07-27T10:45:37+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0987s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0656s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:45:41+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013a7KZO1i1GaX03qtZO1bEMZO1a7KZl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0472s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0446s ]
+
+[ 2016-07-27T10:45:41+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-07-27T10:45:41+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0813s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0239s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:45:45+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003TiRbu12Hlz70QtCfu1OTUbu1TiRbY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0465s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0442s ]
+
+[ 2016-07-27T10:45:45+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-07-27T10:45:45+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0478s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0454s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:45:48+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003BJwQ112NIK22acrP11DrDQ11BJwQa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0461s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0444s ]
+
+[ 2016-07-27T10:45:49+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-07-27T10:45:49+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0610s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0445s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:45:52+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013xxSAa1AyYBU15ojya1fiMAa1xxSAt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0456s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0450s ]
+
+[ 2016-07-27T10:45:52+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-07-27T10:45:53+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0462s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0447s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:45:56+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013QooDB13ueo00qmQEB1JPpDB1QooD4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0462s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0442s ]
+
+[ 2016-07-27T10:45:56+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-07-27T10:45:57+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0833s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0459s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:46:00+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013trA3B0ydynb25tA4B0Wpw3B0trA3y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0489s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0450s ]
+
+[ 2016-07-27T10:46:00+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+
+[ 2016-07-27T10:46:00+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0474s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0442s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:46:04+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=003Gl1jE0Z9xJ820WsiE0nIViE0Gl1jg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0491s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0531s ]
+
+[ 2016-07-27T10:46:04+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-07-27T10:46:04+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0461s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0438s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T10:46:08+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html?code=013NzV4D19ydBg0RVr5D1E6Y4D1NzV4N
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0469s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0448s ]
+
+[ 2016-07-27T10:46:08+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1/trafficid/9f556078-bf64-4009-8652-9559d7ab8dbf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0691s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=1 and publish_status=1 ) LIMIT 1   [ RunTime:0.0658s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0626s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=1 and publish_status=1 ) LIMIT 1   [ RunTime:0.0225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined variable: openid D:\phpStudy\WWW\dzp\Application\Runtime\Cache\Home\61d8b997aadaf231da670b7cc2ebeacc.php 第 108 行.
+NOTIC: [8] Undefined variable: openid D:\phpStudy\WWW\dzp\Application\Runtime\Cache\Home\61d8b997aadaf231da670b7cc2ebeacc.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001506s ]
+
+[ 2016-07-27T10:51:43+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0474s ]
+SQL: SELECT `status`,`start_at`,`end_at`,`times` FROM `app_activities` WHERE ( id=1 and publish_status=1 ) LIMIT 1   [ RunTime:0.0446s ]
+SQL: UPDATE `app_activities` SET `status`='2',`start_at`='2016-07-27 00:00:00',`end_at`='2016-07-30 00:00:00',`times`='1' WHERE ( id=1 ) [ RunTime:0.0919s ]
+
+[ 2016-07-27T10:53:31+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1/trafficid/9f556078-bf64-4009-8652-9559d7ab8dbf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=1 and publish_status=1 ) LIMIT 1   [ RunTime:0.0677s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0818s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=1 and publish_status=1 ) LIMIT 1   [ RunTime:0.0234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: openid D:\phpStudy\WWW\dzp\Application\Runtime\Cache\Home\61d8b997aadaf231da670b7cc2ebeacc.php 第 108 行.
+NOTIC: [8] Undefined variable: openid D:\phpStudy\WWW\dzp\Application\Runtime\Cache\Home\61d8b997aadaf231da670b7cc2ebeacc.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-07-27T10:53:33+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0458s ]
+SQL: SELECT `status`,`start_at`,`end_at`,`times` FROM `app_activities` WHERE ( id=1 and publish_status=1 ) LIMIT 1   [ RunTime:0.0444s ]
+
+[ 2016-07-27T10:53:51+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/index/activeid/1/trafficid/9f556078-bf64-4009-8652-9559d7ab8dbf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `app_activities` WHERE ( id=1 and publish_status=1 ) LIMIT 1   [ RunTime:0.0678s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0848s ]
+SQL: SELECT COUNT(prize_level) AS tp_count FROM `app_activity_dzp` WHERE ( activity_id=1 and publish_status=1 ) LIMIT 1   [ RunTime:0.0228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined variable: openid D:\phpStudy\WWW\dzp\Application\Runtime\Cache\Home\61d8b997aadaf231da670b7cc2ebeacc.php 第 108 行.
+NOTIC: [8] Undefined variable: openid D:\phpStudy\WWW\dzp\Application\Runtime\Cache\Home\61d8b997aadaf231da670b7cc2ebeacc.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2016-07-27T10:53:53+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0462s ]
+SQL: SELECT `status`,`start_at`,`end_at`,`times` FROM `app_activities` WHERE ( id=1 and publish_status=1 ) LIMIT 1   [ RunTime:0.0455s ]
+
+[ 2016-07-27T10:55:37+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/draw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0456s ]
+SQL: SELECT `status`,`start_at`,`end_at`,`times` FROM `app_activities` WHERE ( id=1 and publish_status=1 ) LIMIT 1   [ RunTime:0.0454s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0816s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=1 and traffic_id="9f556078-bf64-4009-8652-9559d7ab8dbf" and publish_status=1 ) LIMIT 1   [ RunTime:0.0239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_activity_dzp_details` WHERE ( activity_id=1 and traffic_id="9f556078-bf64-4009-8652-9559d7ab8dbf" and prize_level!=6 and publish_status=1 ) LIMIT 1   [ RunTime:0.0235s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0243s ]
+SQL: SELECT `prize_level`,`probability` FROM `app_activity_dzp` WHERE ( activity_id=1 and publish_status=1 )  [ RunTime:0.0241s ]
+SQL: SELECT `day_num`,`total_num` FROM `app_activity_dzp` WHERE ( prize_level=1 and activity_id=1 and publish_status=1 ) LIMIT 1   [ RunTime:0.0237s ]
+SQL: UPDATE `app_activity_dzp` SET `total_num`='9',`day_num`='9' WHERE ( prize_level=1 and activity_id=1 and publish_status=1 ) [ RunTime:0.0315s ]
+SQL: SHOW COLUMNS FROM `app_activity_participant` [ RunTime:0.0245s ]
+SQL: INSERT INTO `app_activity_participant` (`activity_id`,`traffic_id`,`created_at`) VALUES ('1','9f556078-bf64-4009-8652-9559d7ab8dbf','2016-07-27 10:55:37') [ RunTime:0.0306s ]
+SQL: INSERT INTO `app_activity_dzp_details` (`activity_id`,`traffic_id`,`created_at`,`updated_at`,`prize_level`,`is_send_prize`) VALUES ('1','9f556078-bf64-4009-8652-9559d7ab8dbf','2016-07-27 10:55:37','2016-07-27 10:55:37','1','0') [ RunTime:0.0306s ]
+
+[ 2016-07-27T10:55:46+08:00 ] 127.0.0.1 /dzp/index.php/Home/Dzp/submit/activeid/1/trafficid/9f556078-bf64-4009-8652-9559d7ab8dbf/grade/%E4%B8%80%E7%AD%89%E5%A5%96.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0964s ]
+SQL: SELECT `name`,`logo_url` FROM `app_activities` WHERE ( id=1 and publish_status=1 ) LIMIT 1   [ RunTime:0.0812s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp_details` [ RunTime:0.0234s ]
+SQL: SELECT `name`,`phone`,`address`,`prize_level` FROM `app_activity_dzp_details` WHERE ( traffic_id="9f556078-bf64-4009-8652-9559d7ab8dbf" and prize_level!=6 and activity_id=1 and publish_status=1 ) ORDER BY created_at desc LIMIT 1   [ RunTime:0.0238s ]
+SQL: SHOW COLUMNS FROM `app_activity_dzp` [ RunTime:0.0232s ]
+SQL: SELECT `skip_url`,`url`,`prize_level` FROM `app_activity_dzp` WHERE ( activity_id=1 and publish_status=1 ) ORDER BY prize_level  [ RunTime:0.0236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: openid D:\phpStudy\WWW\dzp\Application\Runtime\Cache\Home\25125d52aaec9ed88d268c2651ab3311.php 第 133 行.
+NOTIC: [8] Undefined variable: openid D:\phpStudy\WWW\dzp\Application\Runtime\Cache\Home\25125d52aaec9ed88d268c2651ab3311.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-07-27T11:02:28+08:00 ] 127.0.0.1 /dzp/index.php/home/dzp/index/activeid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+
+[ 2016-07-27T11:02:28+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0963s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0636s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+
+[ 2016-07-27T11:02:57+08:00 ] 127.0.0.1 /dzp/index.php/home/dzp/index/activeid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+
+[ 2016-07-27T11:02:57+08:00 ] 127.0.0.1 /dzp/index.php/Home/Auth/authLogin/activeid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `app_activities` [ RunTime:0.0461s ]
+SQL: SELECT app_activities.type,app_activities.is_member_activity,soc_socials.appkey,soc_socials.id,soc_socials.social_type,soc_socials.real_id FROM `app_activities` INNER JOIN soc_socials on app_activities.social_id=soc_socials.id  WHERE ( app_activities.id=1 and app_activities.publish_status=1 ) LIMIT 1   [ RunTime:0.0817s ]
+NOTIC: [2] Missing argument 2 for Org\Util\WeixinOAuth::formatBizQueryParaMap(), called in D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php on line 38 and defined D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 45 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+NOTIC: [8] Undefined variable: urlencode D:\phpStudy\WWW\dzp\ThinkPHP\Library\Org\Util\WeixinOAuth.class.php 第 51 行.
+

@@ -192,7 +192,7 @@ class DzpController extends Controller {
             }
         $this->ajaxReturn(array('status'=>"overdue",'info'=>'活动已过期哦~~')); 
         }
-        if($activeStatus['start_at']>date('Y-m-d H:i:s',strtotime('-1 day'))){
+        if($activeStatus['start_at']>date('Y-m-d H:i:s',strtotime('+1 day'))){
             if($activeStatus['status']==0 || $activeStatus['status']==1){
                 $activeConf->status='2';
                 $activeConf->where('id=%d',array(I('post.activeid')))->save();

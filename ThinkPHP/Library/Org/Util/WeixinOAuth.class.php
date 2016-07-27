@@ -138,7 +138,6 @@ class WeixinOAuth extends Controller{
             $data= 'trafficRealId='.$trafficRealId.'&socialId='.$socialId;
             //$data=  json_encode($data);
             $url = 'http://10.6.28.125:10501/business-service-core/traffic';//调用BS提供的地址，需要跟BS同事要,此入口地址可以写到配置文件中
-            
             //初始化curl
             $ch = curl_init();
 
