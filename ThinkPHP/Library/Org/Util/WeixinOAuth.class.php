@@ -20,7 +20,7 @@ class WeixinOAuth extends Controller{
                */
                // $url="http://scrm-stg.huntor.cn:9090/";  //汉拓科技授权回调地址
             
-                $url="http://mscrm.huntor.cn/oauth/"; //汉拓研发中心授权回调地址
+                $url="http://scrmoauth.nhw360.com/oauth/"; //汉拓研发中心授权回调地址
                 //$url=C('wx_redirecturi');//微信回调地址
         }
         
